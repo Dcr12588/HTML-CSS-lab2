@@ -1,0 +1,77 @@
+/* header {
+    height: 100px;
+    background-color: gray;
+    margin: 0%;
+    padding: 0%; 
+}
+
+body > div {
+    background-color: white;
+    max-width: 100%;
+    
+}
+
+div > #div1 {
+    background-color: lightgrey;
+    height: 650px;
+    width: 200px;
+    left: 0px;
+}
+
+div > #div2 {
+    background-color: lightgrey;
+    height: 650px;
+    position: fixed;
+    width: 200px;
+    right: 0px;
+    top: 108px;
+}
+
+footer {
+    background-color: black;
+    height: 100px;
+    max-width: 100%;
+    position: relative;
+    z-index: 1;
+    bottom: 0px;
+} */
+
+header {
+    height: 100px;
+    background-color: gray;
+    margin: 0%;
+    padding: 0%;
+}
+
+body > div{
+    max-width: 100%;
+    background-color: white;
+    position: relative;
+    z-index: 2;
+    height: 550px;
+}
+
+.box {
+    height: 600px;
+    width: 100px;
+    background-color: lightgray;
+    position: absolute;
+    z-index: 2;
+}
+
+div > #div2{
+    background-color: lightgrey;
+    position: fixed;
+    right: 8px;
+    top: 108px;
+}
+
+footer {
+    height: 50px;
+    max-width: 100%;
+    background-color: black;
+    position: relative;
+    z-index: 1;
+    bottom: 0px;
+}
+
